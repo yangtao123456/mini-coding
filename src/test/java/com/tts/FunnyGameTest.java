@@ -10,7 +10,7 @@ public class FunnyGameTest {
     @Test
     public void testSimpleOutByNumber(){
         int number = 33;
-        String word = FunnyGameUtil.simpleOut(number);
+        String word = FunnyGameUtil.simpleOutput(number);
 
         System.out.printf("Number %d convert to %s.\n", number, word);
         Assert.assertTrue("The output for number " + number + " should be Fizz!!!!",
@@ -22,9 +22,9 @@ public class FunnyGameTest {
      */
     @Test
     public void testSimpleOut() {
-        System.out.println("\n<<=======================simpleOut test Start===================>>");
+        System.out.println("\n<<=======================simpleOutput test Start===================>>");
         for(int i=1; i<=100; i++){
-            String word = FunnyGameUtil.simpleOut(i);
+            String word = FunnyGameUtil.simpleOutput(i);
 
             System.out.printf("%d should say %s.\n", i, word);
         }
@@ -37,7 +37,7 @@ public class FunnyGameTest {
     @Test
     public void testComplexOutByNumber(){
         int number = 53;
-        String word = FunnyGameUtil.complexOut(number);
+        String word = FunnyGameUtil.complexOutput(number);
 
         System.out.printf("Number %d convert to %s.\n", number, word);
         Assert.assertTrue("The output for number " + number + " should be FizzBuzz!!!!",
@@ -51,7 +51,7 @@ public class FunnyGameTest {
     public void testComplexOut() {
         System.out.println("\n<<=======================ComplexOut test Start===================>>");
         for(int i=1; i<=100; i++){
-            String word = FunnyGameUtil.complexOut(i);
+            String word = FunnyGameUtil.complexOutput(i);
 
             System.out.printf("%d should say %s.\n", i, word);
         }
