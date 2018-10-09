@@ -1,7 +1,8 @@
 # mini-coding
 
 ### Requirement:
-1: It based on maven. 
+1: It based on maven.
+
 2: JDK required JDK 1.8 +.
 
 ### Description:
