@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class FunnyGameTest {
+
     /**
      * Do simple test, input given number and compare whether the result is correct.
      */

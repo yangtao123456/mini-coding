@@ -36,3 +36,4 @@ input 23, output FIZZ
 input 52, output BUZZ
 input 45, output FIZZ
 input 1, output 1
+
